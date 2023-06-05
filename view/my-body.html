@@ -1,38 +1,35 @@
 <div class="container">
-    <div class="row bg-light bg-gradient cols-1 gy-2 pb-3"> <!--ROW-->
-        <h2 class="text-center col-12 pd-2 ">Invoice Header</h2>
+    <div class="row bg-light bg-gradient cols-1 pb-3 " id="rowBody"> <!--ROW-->
         <div class="col-9">
             <div class="row">
                 <div class="col-sm-3 text-center">
                     <label for="bill">Product Code</label>
-                    <input class="form-control" name="" type="number">
+                    <input class="form-control" name="pCode" type="number">
                 </div>
                 <div class="col-sm-3 text-center">
                     <label for="bill">Product Name</label>
-                    <input class="form-control" name="bill" type="text">
+                    <input class="form-control" name="pName" type="text">
                 </div>
                 <div class="col-sm-3 text-center">
                     <label for="bill">Amount</label>
-                    <input class="form-control" name="bill" type="number">
+                    <input class="form-control" name="amount" type="number">
                 </div>
                 <div class="col-sm-3 text-center">
                     <label for="bill">Price</label>
-                    <input class="form-control" name="bill" type="number">
+                    <input class="form-control" name="price" type="number">
                 </div>
             </div>
         </div>
         <div class="col-3 pt-4">
                 <div class="row">
                     <div class="col-sm-6">
-                        <button class="btn btn-info w-100">+</button>
+                        <button class="btn btn-info w-100" id="add">+</button>
                     </div>
                     <div class="col-sm-6">
                         <button class="btn btn-danger w-100">-</button>
                     </div>
                 </div>
         </div>
-        <div class="col-12 mt-3">
-            <button class="w-100 btn btn-success">Send</button>
-        </div>
+
     </div>
 </div>
